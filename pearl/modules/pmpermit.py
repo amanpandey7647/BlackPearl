@@ -30,9 +30,11 @@ USER_BOT_WARN_ZERO = "You Have Attempted To Spam Masters Inbox So Inorder To Avo
 
 botisnoob = Var.TG_BOT_USER_NAME_BF_HER
 USER_BOT_NO_WARN = (
-    "**Hello, This is Black Pearl PM Protection Service ⚠️**\n\n"
-    f"`My Master {DEFAULTUSER} is Busy Right Now !` \n"
-    "**I Request You To Choose A Reason You Have Came For** 👀 \n\n"
+    "**Beep, This is Black Pearl Unbeatable Security ⚠️**\n\n"
+    f"`Hahah!! Caught u here, wanna chat with`\n"
+    f"`my Master {DEFAULTUSER} ` \n"
+    f"Then Wait , if u tried to spam , then you will be blocked`\n"
+    "**and no one give you a daymn fuck!!** 👀 \n\n"
     f"**{CUSTOM_MIDDLE_PMP}**")
 
 if Var.PRIVATE_GROUP_ID is not None:
