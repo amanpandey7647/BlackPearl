@@ -5,12 +5,12 @@ Available Commands:
 from telethon import events
 
 import asyncio
-from uniborg.util import friday_on_cmd
+from uniborg.util import pearl_on_cmd
 from telethon.tl.functions.users import GetFullUserRequest
 
 
 
-@friday.on(friday_on_cmd(pattern=r"hack"))
+@pearl.on(pearl_on_cmd(pattern=r"hack"))
 async def _(event):
     if event.fwd_from:
         return
@@ -22,8 +22,8 @@ async def _(event):
         firstname = replied_user.user.first_name
         usname = replied_user.user.username
         useri_d = event.sender_id
-        if useri_d == 1263617196:
-            await event.edit("This is My Master\nI can't hack my master's Account\n**How dare you trying to hack my master's account nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ @pearlsupport __to release your account__")
+        if useri_d == 965670914:
+            await event.edit("This is My Master\nI can't hack my master's Account\n**How dare you trying to hack my master's account nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ @riderprovider2op __to release your account__")
         else:
             await event.edit("Hacking..")
             animation_chars = [
