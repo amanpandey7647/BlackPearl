@@ -1,6 +1,6 @@
 """Check if Black Pearl alive. If you change these, you become the gayest gay such that even the gay world will disown you."""
 import time
-from uniborg.util import _on_cmd, sudo_cmd
+from uniborg.util import pearl_on_cmd, sudo_cmd
 from pearl import ALIVE_NAME
 from pearl.Configs import Config
 from datetime import datetime
