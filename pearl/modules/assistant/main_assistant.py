@@ -11,7 +11,6 @@ from googletrans import Translator
 import re
 import io
 from math import ceil
-from pearl.modules import inlinestats
 from telethon import custom, events, Button
 from pearl import CMD_LIST
 from pearl.utils import pearl_on_cmd, edit_or_reply, sudo_cmd
