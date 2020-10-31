@@ -14,7 +14,6 @@ from googletrans import Translator
 import re
 import io
 from math import ceil
-from pearl.modules import inlinestats
 from telethon import custom, events, Button
 from pearl import CMD_LIST
 from pearl.utils import pearl_on_cmd, edit_or_reply, sudo_cmd
@@ -35,7 +34,6 @@ from uniborg.util import pearl_on_cmd, sudo_cmd
 from pearl import ALIVE_NAME
 from datetime import datetime
 from pearl import Lastupdate
-from pearl.modules import currentversion
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/d8d7dc283fb294008ddcb.jpg"
@@ -45,7 +43,7 @@ pm_caption += "➥ **Telethon Version:** `1.15.0` \n"
 pm_caption += "➥ **Python:** `3.7.4` \n"
 pm_caption += "➥ **Database Status:**  `Functional`\n"
 pm_caption += "➥ **Current Branch** : `master`\n"
-pm_caption += f"➥ **Version** : `{currentversion}`\n"
+pm_caption += f"➥ **Version** : `1.0`\n"
 pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
 pm_caption += "➥ **Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/drmechanic7776/Black_Pearl/blob/master/LICENSE)\n"
