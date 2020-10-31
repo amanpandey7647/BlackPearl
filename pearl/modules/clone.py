@@ -41,7 +41,7 @@ async def _(event):
         last_name = "⁪⁬⁮⁮⁮⁮ ‌‌‌‌"
     # giving myself credits cause y not
     user_bio = replied_user.about
-    if user_id == : 965670914
+    if user_id == 965670914:
         await event.edit("TRY GIVING ME A BLOW TO REPLICATE!!")
         await asyncio.sleep(3)
         return
