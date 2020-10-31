@@ -1,1 +1,1 @@
-fridaybot: python -m pearl
+pearl: python -m pearl
