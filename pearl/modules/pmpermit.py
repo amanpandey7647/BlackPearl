@@ -13,7 +13,7 @@ from pearl.Configs import Config
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/53aed76a90e38779161b1.jpg"
+    WARN_PIC = "https://telegra.ph/file/d8d7dc283fb294008ddcb.jpg"
 else:
     WARN_PIC = PMPERMIT_PIC
 
