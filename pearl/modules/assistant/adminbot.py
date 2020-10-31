@@ -9,7 +9,7 @@ import emoji
 from googletrans import Translator
 from pearl.utils import pearl_on_cmd, edit_or_reply, sudo_cmd
 from telethon.utils import get_display_name
-from pearl.utils import perl_on_cmd, sudo_cmd
+from pearl.utils import pearl_on_cmd, sudo_cmd
 from pearl.Configs import Config
 from telethon import events
 from datetime import datetime
