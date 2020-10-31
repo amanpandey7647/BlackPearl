@@ -5,7 +5,6 @@ from pearl import ALIVE_NAME
 from pearl.Configs import Config
 from datetime import datetime
 from pearl import Lastupdate
-from pearl.modules import currentversion
 
 #Functions
 def get_readable_time(seconds: int) -> str:
@@ -45,7 +44,7 @@ pm_caption += "➥ **Python:** `3.7.4` \n"
 pm_caption += f"➥ **Uptime** : `{uptime}` \n"
 pm_caption += "➥ **Database Status:**  `Functional`\n"
 pm_caption += "➥ **Current Branch** : `master`\n"
-pm_caption += f"➥ **Version** : `{currentversion}`\n"
+pm_caption += f"➥ **Version** : `1.0`\n"
 pm_caption += f"➥ **My Boss** : {DEFAULTUSER} \n"
 pm_caption += "➥ **Heroku Database** : `AWS - STILL WORKS LIKE A CHARM`\n\n"
 pm_caption += "➥ **License** : [GNU General Public License v3.0](github.com/drmechanic7776/blob/master/LICENSE)\n"
