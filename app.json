@@ -1,5 +1,5 @@
 {
-  "name": "Black pearl",
+  "name": "Black Pearl",
   "description": "A Userbot Based On Telethon by @riderprovider2op",
   "logo": "https://telegra.ph/file/d8d7dc283fb294008ddcb.jpg",
   "keywords": [
@@ -9,7 +9,7 @@
     "telegram-pearl",
     "productivity"
   ],
-  "repository": "https://github.com/drmechanic7776/Black_pearl",
+  "repository": "https://github.com/drmechanic7776/Black_Pearl",
   "website": "clownmafia.ml",
   "success_url": "t.me/pearlsupport",
   "env": {
@@ -61,7 +61,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: drmechanic7776/Black_pearl, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: drmechanic7776/Black_Pearl, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
